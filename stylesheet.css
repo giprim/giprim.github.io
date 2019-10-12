@@ -197,6 +197,10 @@ article p {
     text-shadow: 1px 1px 1px var(--orange);
 }
 
+.back-arrow:hover{
+    cursor: pointer;
+}
+
 .portf i {
     color: var(--orange);
 }
