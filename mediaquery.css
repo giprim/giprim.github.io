@@ -64,15 +64,14 @@
       display: none;
     }
     .myPic{
-      width: 220px;
-      height: 220px;
+      width: 200px;
+      height: 200px;
     }
     #picture{
       width: 200px;
       height: 200px;
-      top: auto;
       bottom: 0px;
-      left: 25%;
+      transform: translate(50%);
       position: relative;
     }
     
