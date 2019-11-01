@@ -214,6 +214,7 @@ article p {
     height: 100%;
     background: var(--white);
     left: 4000px;
+    overflow-wrap: break-word;
     transition: .4s ease;
     box-shadow: -10px 15px 30px var(--shadow);
     display: none;
@@ -317,17 +318,26 @@ ul {
     color: var(--dark);
 }
 
-.port_wrapper{
+/* .port_wrapper{
     padding: 40px;
     height: 100%;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(4, 1fr) ;
     grid-template-rows: repeat(3, 1fr);
-}
+} */
 
-.portfolioDiv{
-    border: 2px var(--border) solid;
-}
+/* .portfolioDiv{
+    width: 200px;
+    height: auto;
+    margin: 5px;
+    position: relative;
+} */
+
+/* .portfolioDiv .screenshot{
+    position: absolute;
+    width: auto;
+    height: auto;
+} */
 
 
